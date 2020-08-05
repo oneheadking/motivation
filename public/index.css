@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  /* font-family: impact; */
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  position: relative;
+  padding: 18px;
+}
+
+.header h1 {
+  font-family: impact;
+}
+
+.header ul {
+  position: absolute;
+  right: 200px;
+  top: 10px;
+}
+
+.header ul li {
+  float: left;
+  padding: 18px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slogon {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.slogon h1 {
+  color: white;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.slogon-left {
+  background: linear-gradient(
+      to right,
+      rgba(171, 171, 166, 0.5),
+      rgba(18, 18, 17, 0.9)
+    ),
+    url("./img/hardwork1.png");
+  background-size: 100% 100%;
+  height: 500px;
+  position: relative;
+  /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);  */
+}
+
+.slogon-left h1 {
+  position: absolute;
+  right: 10px;
+  top: 60px;
+}
+
+.slogon-right {
+  background-image: linear-gradient(
+      to right,
+      rgba(18, 18, 17, 0.9),
+      rgba(171, 171, 166, 0.5)
+    ),
+    url("./img/finalwin1.jpg");
+  background-size: 100% 100%;
+  height: 500px;
+  position: relative;
+  /* float: right; */
+}
+
+.slogon-right h1 {
+  position: absolute;
+  left: 5px;
+  top: 60px;
+}
+
+.quote {
+  padding: 18px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.forward-btn {
+  position: absolute;
+  bottom: 75px;
+  right: -5px;
+  border: none;
+  background-color: white;
+  /* background-color: white; */
+}
+
+.backward-btn {
+  position: absolute;
+  bottom: 75px;
+  left: 5px;
+  border: none;
+  background-color: white;
+}
+
+
+#quote-h1,
+#music-h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.quote-box-wrap {
+  /* overflow: hidden; */
+  width: 100%;
+  /* display: flex;
+  flex-wrap: nowrap; */
+}
+
+.quote-box {
+  /* border: 1px solid black; */
+
+  font-size: 10px;
+  width: 250px;
+  height: 150px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+  margin-right: 10px;
+  /* position: absolute; */
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ebebeb;
+  /* flex-basis: 80%; */
+}
+
+.quote-box h3 {
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+}
+
+
+.music {
+  padding: 18px;
+  height: 200px;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.music-box-wrap{
+  width: 100%;
+}
+
+.music-box {
+  width: 250px;
+  height: 150px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  float: left;
+}
+
+
+
+footer{
+  position: absolute;
+  width: 100%;
+  background-color: #979696;
+  color: white;
+  font-size: 15px;
+  padding: 8px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  /* bottom: 0; */
+  /* clear: both; */
+}
